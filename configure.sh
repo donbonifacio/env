@@ -1,4 +1,4 @@
 rm -rf ~/.vim
-cp -R .vim ~
-cp .vimrc ~
-cp .gvimrc ~
+cp -R vim ~/.vim
+cp vim/.vimrc ~
+cp vim/.gvimrc ~
