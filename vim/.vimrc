@@ -2,8 +2,8 @@
 call pathogen#infect()
 filetype plugin indent on
 
-set autoindent
 syntax on
+set autoindent
 set nocompatible
 
 set encoding=utf-8
@@ -17,6 +17,11 @@ set nowrap
 set guioptions-=r
 set guioptions-=l
 set guioptions-=b
+
+set backspace=indent,eol,start
+set showmatch
+set nobackup
+set noswapfile
 
 set background=dark
 colorscheme solarized
