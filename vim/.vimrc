@@ -14,6 +14,7 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set nowrap
+set guioptions-=r
 
 set background=dark
 colorscheme solarized
