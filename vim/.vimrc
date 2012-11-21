@@ -17,6 +17,7 @@ set nowrap
 set guioptions-=r
 set guioptions-=l
 set guioptions-=b
+set incsearch
 
 set backspace=indent,eol,start
 set showmatch
