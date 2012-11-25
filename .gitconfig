@@ -7,5 +7,7 @@
 	prompt = false
 [alias]
 	d = difftool
+  s = status -s
+  latest = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
 [color]
 	ui = true
