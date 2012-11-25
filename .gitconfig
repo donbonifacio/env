@@ -1,0 +1,11 @@
+[user]
+	name = Pedro Santos
+	email = donbonifacio@gmail.com
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+[color]
+	ui = true
