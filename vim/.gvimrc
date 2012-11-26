@@ -9,4 +9,5 @@ if has("gui_running")
   if has("gui_gtk2")
     set guifont=Monospace\ 10
   endif
+  set lines=999 columns=999
 endif
