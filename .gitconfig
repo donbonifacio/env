@@ -1,0 +1,13 @@
+[user]
+	name = Pedro Santos
+	email = donbonifacio@gmail.com
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+  s = status -s
+  latest = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
+[color]
+	ui = true
