@@ -4,3 +4,4 @@ cp vim/.vimrc ~
 cp vim/.gvimrc ~
 cp .gitconfig ~
 cp .profile ~
+cp .tmux.conf ~
