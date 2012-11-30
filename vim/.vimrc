@@ -20,6 +20,7 @@ set guioptions-=r
 set guioptions-=l
 set guioptions-=b
 set incsearch
+set cursorline
 
 set backspace=indent,eol,start
 set showmatch
