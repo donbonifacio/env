@@ -11,3 +11,8 @@ if has("gui_running")
   endif
   set lines=999 columns=999
 endif
+
+:au FocusLost * :wa
+
+":au BufEnter * :hi Normal guibg=blue
+" au BufLeave * :hi Normal guibg=#002b36
