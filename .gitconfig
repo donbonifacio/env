@@ -11,3 +11,5 @@
   latest = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
 [color]
 	ui = true
+[core]
+	editor = vim
