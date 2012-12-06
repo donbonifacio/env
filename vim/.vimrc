@@ -39,6 +39,14 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
+" Show Marks
+let showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let g:showmarks_enable = 1
+highlight ShowMarksHLl gui=bold guibg=LightBlue guifg=Blue
+highlight ShowMarksHLu gui=bold guibg=LightRed guifg=DarkRed
+highlight ShowMarksHLo gui=bold guibg=LightYellow guifg=DarkYellow
+highlight ShowMarksHLm gui=bold guibg=LightGreen guifg=DarkGreen
+
 if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local
 end
