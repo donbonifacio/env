@@ -9,6 +9,7 @@
 	d = difftool
   s = status -s
   latest = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
+  l = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%aN>%Creset'
 [color]
 	ui = true
 [core]
