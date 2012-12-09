@@ -47,6 +47,24 @@ highlight ShowMarksHLu gui=bold guibg=LightRed guifg=DarkRed
 highlight ShowMarksHLo gui=bold guibg=LightYellow guifg=DarkYellow
 highlight ShowMarksHLm gui=bold guibg=LightGreen guifg=DarkGreen
 
+" Omni complete on tab
+function! SuperCleverTab()
+  if strpart(getline('.'), 0, col('.') - 1) =~ '^\s*$'
+    return "\<Tab>"
+  else
+    if &omnifunc != ''
+      return "\<C-X>\<C-O>"
+    elseif &dictionary != ''
+      return "\<C-K>"
+    else
+      return "\<C-N>"
+    endif
+  endif
+endfunction
+
+inoremap <Tab> <C-R>=SuperCleverTab()<cr>
+
+"
 if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local
 end
