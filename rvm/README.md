@@ -10,3 +10,6 @@ rvm gemset create project
 
 # go to project and configure rvm
 echo "rvm 1.9.3@project" > .rvmrc
+
+# Use proper rvm on scripts
+source $HOME/.rvm/scripts/rvm
