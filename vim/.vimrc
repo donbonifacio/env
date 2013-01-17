@@ -27,6 +27,14 @@ set showmatch
 set nobackup
 set noswapfile
 
+if !has('gui_running')
+  let g:solarized_termtrans=1
+  if (&t_Co >= 256 || $TERM == 'xterm-256color')
+    " Do nothing, it handles itself.
+  else
+    let g:solarized_termcolors=16
+  endif
+endif
 set background=dark
 colorscheme solarized
 
@@ -58,7 +66,6 @@ endfunction
 
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
-"
 if filereadable(expand("~/.vimrc.local"))
-	source ~/.vimrc.local
+  source ~/.vimrc.local
 end
