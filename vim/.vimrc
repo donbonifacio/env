@@ -21,8 +21,6 @@ set guioptions-=l
 set guioptions-=b
 set incsearch
 set cursorline
-set clipboard=unnamed
-
 set backspace=indent,eol,start
 set showmatch
 set nobackup
