@@ -10,6 +10,8 @@ export CYAN="\[\033[0;36m\]"
 export PS1="$LIGHT_GREEN\W$NO_COLOR"
 export PS1="$PS1\$(git branch 2> /dev/null | grep -e '\* ' | sed 's/^..\(.*\)/[$CYAN\1$NO_COLOR]/')$ "
 
+export GREP_OPTIONS="--color"
+
 PATH=$HOME/bin:$PATH
 PATH=$HOME/etc/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin
