@@ -65,10 +65,11 @@ endfunction
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 let mapleader = ","
-map <Leader>m :Rmodel
-map <Leader>c :Rcontroller
-map <Leader>v :Rview
-map <Leader>u :Runittest
+map <Leader>m :Rmodel <CR>
+map <Leader>c :Rcontroller <CR>
+map <Leader>v :Rview <CR>
+map <Leader>u :Runittest <CR>
+
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
