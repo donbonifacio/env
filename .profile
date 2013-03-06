@@ -16,3 +16,5 @@ export GREP_OPTIONS="--color"
 PATH=$HOME/bin:$PATH
 PATH=$HOME/etc/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin
+
+source ~/.git-completion.bash

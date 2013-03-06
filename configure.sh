@@ -6,6 +6,7 @@ cp -R vim ~/.vim
 cp vim/.vimrc ~
 cp vim/.gvimrc ~
 cp .gitconfig ~
+cp gitutils/git-completion.bash ~/.git-completion.bash
 cp .profile ~
 ln -s ~/.profile ~/.bash_profile
 source ~/.profile
