@@ -1,16 +1,17 @@
 [user]
-	name = Pedro Santos
-	email = donbonifacio@gmail.com
+  name = Pedro Santos
+  email = donbonifacio@gmail.com
 [diff]
-	tool = vimdiff
+  tool = vimdiff
 [difftool]
-	prompt = false
+  prompt = false
 [alias]
-	d = difftool
+  d = difftool
   s = status -s
   latest = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
   l = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%aN>%Creset'
+  unmerged = branch --no-merged
 [color]
-	ui = true
+  ui = true
 [core]
-	editor = vim
+  editor = vim
