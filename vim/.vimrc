@@ -2,7 +2,10 @@
 call pathogen#infect()
 filetype plugin indent on
 
+let &t_Co=256
+colorscheme Monokai
 syntax on
+
 set autoindent
 set nocompatible
 
@@ -19,23 +22,14 @@ set nowrap
 set guioptions-=r
 set guioptions-=l
 set guioptions-=b
+set guioptions-=T
 set incsearch
 set cursorline
 set backspace=indent,eol,start
 set showmatch
 set nobackup
 set noswapfile
-
-if !has('gui_running')
-  let g:solarized_termtrans=1
-  if (&t_Co >= 256 || $TERM == 'xterm-256color')
-    " Do nothing, it handles itself.
-  else
-    let g:solarized_termcolors=16
-  endif
-endif
-set background=dark
-colorscheme solarized
+set number
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
