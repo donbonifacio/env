@@ -31,6 +31,7 @@ set showmatch
 set nobackup
 set noswapfile
 set number
+set autoread
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
