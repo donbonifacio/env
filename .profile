@@ -18,4 +18,5 @@ PATH=$HOME/etc/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin
 
 source ~/.git-completion.bash
+source ~/.nvm/nvm.sh
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
