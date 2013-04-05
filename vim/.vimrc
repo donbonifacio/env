@@ -22,6 +22,7 @@ set expandtab
 set nowrap
 set guioptions-=r
 set guioptions-=l
+set colorcolumn=80
 set guioptions-=b
 set guioptions-=T
 set incsearch
