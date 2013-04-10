@@ -67,6 +67,8 @@ map <Leader>c :Rcontroller <CR>
 map <Leader>v :Rview <CR>
 map <Leader>u :Runittest <CR>
 
+" vim-ruby-test config
+"let g:rubytest_in_quickfix = 1
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
