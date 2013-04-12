@@ -38,6 +38,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_root_markers = ['.git', '.hg', 'Rakefile']
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))|(node_modules|vendor)$'
 
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
