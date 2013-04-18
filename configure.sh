@@ -11,6 +11,7 @@ cp .profile ~
 ln -s ~/.profile ~/.bash_profile
 source ~/.profile
 cp .tmux.conf ~
+cp .rspec ~/rspec
 
 #
 # Prepare bin
