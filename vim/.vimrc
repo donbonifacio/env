@@ -70,8 +70,8 @@ map <Leader>u :Runittest <CR>
 
 " vim-ruby-test config
 "let g:rubytest_in_quickfix = 1
-let g:rubytest_cmd_spec = "clear && rspec %p"
-let g:rubytest_cmd_example = "clear && rspec %p -l %c"
+let g:rubytest_cmd_spec = "clear && rspec %p --debug"
+let g:rubytest_cmd_example = "clear && rspec %p -l %c --debug"
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
