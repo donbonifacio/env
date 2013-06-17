@@ -31,3 +31,6 @@
 [submodule "vim/bundle/vim-rubytest"]
 	path = vim/bundle/vim-rubytest
 	url = https://github.com/janx/vim-rubytest
+[submodule "vim/bundle/vim-autoclose.git"]
+	path = vim/bundle/vim-autoclose.git
+	url = git://github.com/Townk/vim-autoclose.git
