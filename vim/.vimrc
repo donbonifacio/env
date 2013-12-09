@@ -38,7 +38,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_root_markers = ['.git', '.hg', 'Rakefile']
-let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))|(node_modules|vendor)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))|(node_modules|vendor|coverage)$'
 
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
@@ -70,8 +70,12 @@ map <Leader>u :Runittest <CR>
 
 " vim-ruby-test config
 "let g:rubytest_in_quickfix = 1
+let g:rubytest_cmd_test = "clear && ruby %p"
+let g:rubytest_cmd_testcase = "clear && ruby %p -n '/%c/'"
 let g:rubytest_cmd_spec = "clear && rspec %p --debug"
 let g:rubytest_cmd_example = "clear && rspec %p -l %c --debug"
+let g:rubytest_cmd_feature = "clear && cucumber %p"
+let g:rubytest_cmd_story = "clear && cucumber %p -n '%c'"
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local

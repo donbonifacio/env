@@ -13,6 +13,7 @@
   unmerged = branch --no-merged
   unstage = reset HEAD --
   last = log -1 HEAD
+  active-branches = for-each-ref --sort=committerdate refs/heads/
 [color]
   ui = true
 [core]
