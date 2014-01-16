@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vim-autoclose.git"]
 	path = vim/bundle/vim-autoclose.git
 	url = git://github.com/Townk/vim-autoclose.git
+[submodule "vim/bundle/vim-scala"]
+	path = vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
