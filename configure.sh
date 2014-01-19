@@ -8,7 +8,6 @@ cp vim/.gvimrc ~
 cp .gitconfig ~
 cp gitutils/git-completion.bash ~/.git-completion.bash
 cp .profile ~
-ln -s ~/.profile ~/.bash_profile
 source ~/.profile
 cp .tmux.conf ~
 cp .rspec ~/rspec
@@ -18,3 +17,6 @@ cp .rspec ~/rspec
 #
 cp -R bin ~
 chmod +x ~/bin/spark
+
+
+ln -s ~/.profile ~/.bash_profile

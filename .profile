@@ -15,7 +15,8 @@ export GREP_OPTIONS="--color"
 
 PATH=$HOME/bin:$PATH
 PATH=$HOME/etc/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin
+PATH=$HOME/.rbenv/bin:$PATH
+PATH=$HOME/bin/scala/bin/:$PATH
 
 source ~/.git-completion.bash
 source ~/.nvm/nvm.sh
