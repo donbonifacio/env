@@ -20,6 +20,7 @@ PATH=$HOME/.rbenv/bin:$PATH
 export SCALA_HOME
 SCALA_HOME=$HOME/bin/scala/
 PATH=$HOME/bin/scala/bin/:$PATH
+PATH=$HOME/bin/sbt-0.13.1/bin/:$PATH
 
 source ~/.git-completion.bash
 source ~/.nvm/nvm.sh
