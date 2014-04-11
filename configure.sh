@@ -8,6 +8,7 @@ cp vim/.gvimrc ~
 cp .gitconfig ~
 cp gitutils/git-completion.bash ~/.git-completion.bash
 cp .profile ~
+cp .rdebugrc ~/.rdebugrc
 source ~/.profile
 cp .tmux.conf ~
 cp .rspec ~/rspec
