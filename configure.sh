@@ -11,7 +11,7 @@ cp .profile ~
 cp .rdebugrc ~/.rdebugrc
 source ~/.profile
 cp .tmux.conf ~
-cp .rspec ~/rspec
+cp .rspec ~/.rspec
 
 #
 # Prepare bin
