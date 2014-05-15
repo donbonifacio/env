@@ -7,6 +7,7 @@ brew install rbenv
 brew install ruby-build
 brew install mysql
 brew install wget
+brew install ack
 
 brew tap homebrew/dupes
 brew install apple-gcc42
