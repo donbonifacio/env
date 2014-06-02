@@ -18,6 +18,7 @@ brew install caskroom/cask/brew-cask
 brew cask install google-chrome
 brew cask install adium
 brew cask install hipchat
+brew cask install skype
 brew cask install sequel-pro
 brew cask install iterm2
 
