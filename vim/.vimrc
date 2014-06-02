@@ -4,7 +4,7 @@ filetype plugin indent on
 
 let &t_Co=256
 let t_Co=256
-colorscheme Monokai
+colorscheme Tomorrow-Night-Eighties
 syntax on
 
 set autoindent
