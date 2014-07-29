@@ -10,6 +10,7 @@ brew install wget
 brew install ack
 brew install sbt
 brew install leiningen
+brew install hub
 
 brew tap homebrew/dupes
 brew install apple-gcc42
