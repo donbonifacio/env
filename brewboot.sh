@@ -11,6 +11,8 @@ brew install ack
 brew install sbt
 brew install leiningen
 brew install hub
+brew install weechat --with-lua --with-perl --with-python --with-ruby
+brew install git-extras
 
 brew tap homebrew/dupes
 brew install apple-gcc42
