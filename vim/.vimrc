@@ -80,3 +80,5 @@ let g:rubytest_cmd_story = "clear && cucumber %p -n '%c'"
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 end
+
+autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
