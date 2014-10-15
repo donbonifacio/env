@@ -21,3 +21,5 @@ chmod +x ~/bin/spark
 
 
 ln -s ~/.profile ~/.bash_profile
+ln -s ~/.vimrc ~/.nvimrc
+ln -s ~/.vim ~/.nvim
