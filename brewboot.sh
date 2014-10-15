@@ -26,6 +26,7 @@ brew cask install hipchat
 brew cask install skype
 brew cask install sequel-pro
 brew cask install iterm2
+brew cask install limechat
 
 brew cask install atom
 apm install vim-mode
