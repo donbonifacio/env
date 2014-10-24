@@ -18,6 +18,7 @@ brew install fswatch
 brew install --HEAD https://raw.github.com/neovim/neovim/master/neovim.rb
 brew install heroku-toolbelt
 brew install npm
+brew install gpg
 
 brew tap homebrew/dupes
 brew install apple-gcc42
