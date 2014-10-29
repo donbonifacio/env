@@ -6,6 +6,7 @@ brew install tmux
 brew install rbenv
 brew install ruby-build
 brew install mysql
+brew install mongodb
 brew install wget
 brew install ack
 brew install sbt
