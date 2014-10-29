@@ -49,3 +49,6 @@
 [submodule "vim/bundle/vim-redl"]
 	path = vim/bundle/vim-redl
 	url = git://github.com/dgrnbrg/vim-redl.git
+[submodule "vim/bundle/vim-niji"]
+	path = vim/bundle/vim-niji
+	url = git://github.com/amdt/vim-niji.git
