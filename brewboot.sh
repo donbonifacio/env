@@ -16,7 +16,8 @@ brew install weechat --with-lua --with-perl --with-python --with-ruby
 brew install git-extras
 brew install phantomjs
 brew install fswatch
-brew install --HEAD https://raw.github.com/neovim/neovim/master/neovim.rb
+brew tap neovim/homebrew-neovim
+brew install --HEAD neovim
 brew install heroku-toolbelt
 brew install npm
 brew install gpg
