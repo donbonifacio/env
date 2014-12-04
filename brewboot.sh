@@ -30,6 +30,7 @@ brew cask install google-chrome
 brew cask install adium
 brew cask install hipchat
 brew cask install slack
+brew cask install gitter
 brew cask install skype
 brew cask install sequel-pro
 brew cask install iterm2
