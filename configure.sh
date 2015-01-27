@@ -19,7 +19,10 @@ cp .rspec ~/.rspec
 cp -R bin ~
 chmod +x ~/bin/spark
 
-
 ln -s ~/.profile ~/.bash_profile
 ln -s ~/.vimrc ~/.nvimrc
 ln -s ~/.vim ~/.nvim
+
+
+mkdir -p ~/.lein
+cp lein/profiles.clj ~/.lein/
