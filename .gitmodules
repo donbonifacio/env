@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-niji"]
 	path = vim/bundle/vim-niji
 	url = git://github.com/amdt/vim-niji.git
+[submodule "vim/bundle/vim-jsx"]
+	path = vim/bundle/vim-jsx
+	url = git://github.com/mxw/vim-jsx.git
