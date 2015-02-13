@@ -21,6 +21,7 @@ brew install --HEAD neovim
 brew install heroku-toolbelt
 brew install npm
 brew install gpg
+brew install the_silver_searcher
 
 brew tap homebrew/dupes
 brew install apple-gcc42
