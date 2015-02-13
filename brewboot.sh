@@ -12,7 +12,6 @@ brew install ack
 brew install sbt
 brew install leiningen
 brew install hub
-brew install weechat --with-lua --with-perl --with-python --with-ruby
 brew install git-extras
 brew install phantomjs
 brew install fswatch
