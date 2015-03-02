@@ -1,4 +1,4 @@
-{:user {:plugins [[venantius/ultra "0.1.9"]]
+{:user {:plugins [[venantius/ultra "0.3.2"]]
         :ultra {:color-scheme :solarized_dark}
         :dependencies [[spyscope "0.1.5"]
                        [org.clojure/tools.trace "0.7.5"]
