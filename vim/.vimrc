@@ -99,3 +99,5 @@ if filereadable(expand("~/.vimrc.local"))
 end
 
 autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
+autocmd BufNewFile,BufReadPost *.cljc setfiletype clojure
+autocmd BufNewFile,BufReadPost *.pxi setfiletype clojure
