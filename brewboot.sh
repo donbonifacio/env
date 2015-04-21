@@ -22,6 +22,7 @@ brew install npm
 brew install gpg
 brew install the_silver_searcher
 brew install reattach-to-user-namespace
+brew install cloc
 
 brew tap homebrew/dupes
 brew install apple-gcc42
