@@ -23,6 +23,7 @@ brew install gpg
 brew install the_silver_searcher
 brew install reattach-to-user-namespace
 brew install cloc
+brew install terminal-notifier
 
 brew tap homebrew/dupes
 brew install apple-gcc42
