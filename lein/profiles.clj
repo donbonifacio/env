@@ -7,4 +7,7 @@
         :injections [(require 'spyscope.core)
                      (use 'debugger.core)
                      (require 'clojure.tools.trace)
-                     (require '[redl complete core])]}}
+                     (require '[redl complete core])]
+        :test-refresh {:quiet true
+                       :notify-on-success false
+                       :notify-command ["terminal-notifier" "-title" "Tests" "-message"]}}}
