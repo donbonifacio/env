@@ -24,6 +24,9 @@ brew install the_silver_searcher
 brew install reattach-to-user-namespace
 brew install cloc
 brew install terminal-notifier
+brew install docker
+brew install boot2docker
+brew install docker
 
 brew tap homebrew/dupes
 brew install apple-gcc42
