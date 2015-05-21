@@ -27,6 +27,7 @@ brew install terminal-notifier
 brew install docker
 brew install boot2docker
 brew install docker
+brew install forego
 
 brew tap homebrew/dupes
 brew install apple-gcc42
