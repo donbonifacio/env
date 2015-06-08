@@ -45,3 +45,5 @@ brew cask install limechat
 
 brew cask install atom
 apm install vim-mode
+
+ npm install azure-cli --global
