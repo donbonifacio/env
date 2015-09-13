@@ -1,6 +1,5 @@
 {:user {:plugins [[venantius/ultra "0.3.3"]
-                  [lein-ancient "0.6.7"]
-                  [lein-autoreload "0.1.0"]]
+                  [lein-ancient "0.6.7"]]
         :ultra {:color-scheme :solarized_dark}
         :dependencies [[spyscope "0.1.5"]
                        [org.clojure/tools.trace "0.7.5"]
@@ -12,4 +11,4 @@
                      (require '[redl complete core])]
         :test-refresh {:quiet true
                        :notify-on-success false
-                       :notify-command ["terminal-notifier" "-title" "Tests" "-message"]}}}
+                       :notify-command ["tmux" "display-message"]}}}
