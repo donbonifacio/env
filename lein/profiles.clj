@@ -1,4 +1,4 @@
-{:user {:plugins [[venantius/ultra "0.3.3"]
+{:user {:plugins [[venantius/ultra "0.3.4" :exclusions [org.clojure/clojure]]
                   [lein-ancient "0.6.7"]]
         :ultra {:color-scheme :solarized_dark}
         :dependencies [[spyscope "0.1.5"]
