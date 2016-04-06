@@ -6,6 +6,7 @@ cp -R vim ~/.vim
 cp vim/.vimrc ~
 cp vim/.gvimrc ~
 cp .gitconfig ~
+cp .git-commit-template ~
 cp gitutils/git-completion.bash ~/.git-completion.bash
 cp .profile ~
 cp .rdebugrc ~/.rdebugrc

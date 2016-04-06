@@ -1,6 +1,8 @@
 [user]
   name = Pedro Santos
   email = donbonifacio@gmail.com
+[commit]
+  template = ~/.git-commit-template
 [diff]
   tool = vimdiff
 [difftool]
