@@ -6,9 +6,9 @@
   verbose = true
 [diff]
   tool = vimdiff
+  indentHeuristic = true
 [difftool]
   prompt = false
-  indentHeuristic = true
 [alias]
   d = difftool
   s = status -s
