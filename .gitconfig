@@ -3,10 +3,12 @@
   email = donbonifacio@gmail.com
 [commit]
   template = ~/.git-commit-template
+  verbose = true
 [diff]
   tool = vimdiff
 [difftool]
   prompt = false
+  indentHeuristic = true
 [alias]
   d = difftool
   s = status -s
@@ -28,3 +30,7 @@
   branch = auto
 [core]
   editor = vim
+[submodule]
+  fetchJobs = 4
+[rebase]
+  autostash = true
