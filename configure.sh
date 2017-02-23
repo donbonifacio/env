@@ -27,3 +27,5 @@ ln -s ~/.vim ~/.nvim
 
 mkdir -p ~/.lein
 cp lein/profiles.clj ~/.lein/
+
+alias weather="curl http://wttr.in/lisbon"
