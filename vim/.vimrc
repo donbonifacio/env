@@ -12,6 +12,9 @@ Plug 'git@github.com:tpope/vim-fugitive.git'
 Plug 'tpope/vim-vinegar'
 Plug 'Townk/vim-autoclose'
 
+Plug 'janko-m/vim-test'
+Plug 'git@github.com:tpope/vim-dispatch.git'
+
 Plug 'git@github.com:pangloss/vim-javascript.git'
 Plug 'git@github.com:mxw/vim-jsx.git'
 
@@ -19,6 +22,11 @@ Plug 'git@github.com:guns/vim-clojure-static.git'
 Plug 'git@github.com:tpope/vim-fireplace.git'
 Plug 'luochen1990/rainbow'
 call plug#end()
+
+let g:ale_sign_error = '✖'
+let g:ale_sign_warning = '⚠'
+hi ALEErrorSign ctermfg=1
+hi ALEWarningSign ctermfg=3
 
 filetype plugin indent on
 
@@ -95,21 +103,6 @@ function! SuperCleverTab()
 endfunction
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
-let mapleader = ","
-map <Leader>m :Rmodel <CR>
-map <Leader>c :Rcontroller <CR>
-map <Leader>v :Rview <CR>
-map <Leader>u :Runittest <CR>
-
-" vim-ruby-test config
-"let g:rubytest_in_quickfix = 1
-let g:rubytest_cmd_test = "clear && ruby -Itest %p"
-let g:rubytest_cmd_testcase = "clear && ruby -Itest %p -n '/%c/'"
-let g:rubytest_cmd_spec = "clear && rspec %p --debug"
-let g:rubytest_cmd_example = "clear && rspec %p -l %c --debug"
-let g:rubytest_cmd_feature = "clear && cucumber %p"
-let g:rubytest_cmd_story = "clear && cucumber %p -n '%c'"
-
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 end
@@ -117,3 +110,18 @@ end
 autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
 autocmd BufNewFile,BufReadPost *.cljc setfiletype clojure
 autocmd BufNewFile,BufReadPost *.pxi setfiletype clojure
+
+let mapleader = ","
+map <Leader>m :Rmodel <CR>
+map <Leader>c :Rcontroller <CR>
+map <Leader>v :Rview <CR>
+map <Leader>u :Runittest <CR>
+
+map <Leader>l :TestLast <CR>
+map <Leader>n :TestNearest <CR>
+
+nmap <silent> t<C-n> :TestNearest<CR> " t Ctrl+n
+nmap <silent> t<C-f> :TestFile<CR>    " t Ctrl+f
+nmap <silent> t<C-s> :TestSuite<CR>   " t Ctrl+s
+nmap <silent> t<C-l> :TestLast<CR>    " t Ctrl+l
+nmap <silent> t<C-g> :TestVisit<CR>   " t Ctrl+g
