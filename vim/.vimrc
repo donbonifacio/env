@@ -1,5 +1,25 @@
 
-call pathogen#infect()
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+call plug#begin('~/.vim/plugged')
+Plug 'git@github.com:altercation/vim-colors-solarized.git'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'w0rp/ale'
+Plug 'git@github.com:tpope/vim-fugitive.git'
+Plug 'tpope/vim-vinegar'
+Plug 'Townk/vim-autoclose'
+
+Plug 'git@github.com:pangloss/vim-javascript.git'
+Plug 'git@github.com:mxw/vim-jsx.git'
+
+Plug 'git@github.com:guns/vim-clojure-static.git'
+Plug 'git@github.com:tpope/vim-fireplace.git'
+Plug 'luochen1990/rainbow'
+call plug#end()
+
 filetype plugin indent on
 
 let &t_Co=256
@@ -56,10 +76,6 @@ endif
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
-
-" bind \ (backward slash) to grep shortcut
-command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
-nnoremap \ :Ag<SPACE>
 
 " Show Marks
 let showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"

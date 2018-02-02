@@ -34,11 +34,6 @@ tar xzf ~/bin/nvim-macos.tar.gz -C ~/bin
 mkdir -p ~/.config/nvim
 cp ./vim/nvim-init ~/.config/nvim/init.vim
 
-ln -s ~/.vimrc ~/.nvimrc
-ln -s ~/.vim ~/.nvim
-rm -rf ~/.vim/bundle/ale
-git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale
-
 #
 # Lein
 #
