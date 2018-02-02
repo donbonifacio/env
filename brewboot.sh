@@ -5,7 +5,7 @@
 brew install tmux
 brew install rbenv
 brew install ruby-build
-brew install mysql
+#brew install mysql
 brew install mongodb
 brew install wget
 brew install ack
@@ -15,8 +15,8 @@ brew install hub
 brew install git-extras
 brew install phantomjs
 brew install fswatch
-brew tap neovim/homebrew-neovim
-brew install --HEAD neovim
+#brew tap neovim/homebrew-neovim
+#brew install --HEAD neovim
 brew install heroku-toolbelt
 brew install npm
 brew install gpg
@@ -46,4 +46,4 @@ brew cask install limechat
 brew cask install atom
 apm install vim-mode
 
- npm install azure-cli --global
+ #npm install azure-cli --global
