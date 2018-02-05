@@ -18,6 +18,8 @@ Plug 'git@github.com:tpope/vim-dispatch.git'
 Plug 'git@github.com:pangloss/vim-javascript.git'
 Plug 'git@github.com:mxw/vim-jsx.git'
 
+Plug 'tpope/vim-rails'
+
 Plug 'git@github.com:guns/vim-clojure-static.git'
 Plug 'git@github.com:tpope/vim-fireplace.git'
 Plug 'luochen1990/rainbow'
