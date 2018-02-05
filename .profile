@@ -42,4 +42,5 @@ source ~/.git-completion.bash
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-
+alias pg-start="brew services start postgresql"
+alias pg-stop="brew services stop postgresql"
