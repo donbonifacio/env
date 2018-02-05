@@ -28,7 +28,7 @@ export EDITOR=vim
 export GREP_OPTIONS="--color"
 
 PATH=$HOME/bin:$PATH
-PATH=$HOME/bin/nvim-osx64/bin:$PATH
+#PATH=$HOME/bin/nvim-osx64/bin:$PATH
 PATH=$HOME/etc/bin:$PATH
 PATH=$HOME/.rbenv/bin:$PATH
 
