@@ -7,6 +7,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'git@github.com:altercation/vim-colors-solarized.git'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
 Plug 'git@github.com:tpope/vim-fugitive.git'
 Plug 'tpope/vim-vinegar'
