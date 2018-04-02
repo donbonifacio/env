@@ -71,6 +71,7 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_root_markers = ['.git', '.hg', 'Rakefile']
 let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))|(node_modules|vendor|coverage|target)$'
+
 " use silver searcher
 " http://robots.thoughtbot.com/faster-grepping-in-vim
 if executable('ag')
@@ -82,6 +83,9 @@ if executable('ag')
 
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
+
+  " use ag on Ack
+  let g:ackprg = 'ag --vimgrep'
 endif
 
 let g:html_indent_inctags = "html,body,head,tbody"
