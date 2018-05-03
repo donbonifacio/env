@@ -24,6 +24,8 @@ Plug 'tpope/vim-rails'
 Plug 'git@github.com:guns/vim-clojure-static.git'
 Plug 'git@github.com:tpope/vim-fireplace.git'
 Plug 'luochen1990/rainbow'
+
+Plug 'metakirby5/codi.vim'
 call plug#end()
 
 let g:ale_sign_error = '✖'
