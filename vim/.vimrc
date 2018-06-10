@@ -12,6 +12,7 @@ Plug 'w0rp/ale'
 Plug 'git@github.com:tpope/vim-fugitive.git'
 Plug 'tpope/vim-vinegar'
 Plug 'Townk/vim-autoclose'
+Plug 'git@github.com:mileszs/ack.vim.git'
 
 Plug 'janko-m/vim-test'
 Plug 'git@github.com:tpope/vim-dispatch.git'
@@ -25,7 +26,12 @@ Plug 'git@github.com:guns/vim-clojure-static.git'
 Plug 'git@github.com:tpope/vim-fireplace.git'
 Plug 'luochen1990/rainbow'
 
-Plug 'metakirby5/codi.vim'
+Plug 'rust-lang/rust.vim'
+
+Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+
+Plug 'floobits/floobits-neovim'
 call plug#end()
 
 let g:ale_sign_error = '✖'
