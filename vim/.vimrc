@@ -146,3 +146,6 @@ nmap <silent> t<C-g> :TestVisit<CR>   " t Ctrl+g
 " spell check
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd FileType gitcommit setlocal spell
+
+" Auto format 80 chars, gq to format
+au BufRead,BufNewFile *.md setlocal textwidth=80
