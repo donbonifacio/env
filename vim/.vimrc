@@ -27,11 +27,6 @@ Plug 'git@github.com:tpope/vim-fireplace.git'
 Plug 'luochen1990/rainbow'
 
 Plug 'rust-lang/rust.vim'
-
-Plug 'leafgarland/typescript-vim'
-Plug 'HerringtonDarkholme/yats.vim'
-
-Plug 'floobits/floobits-neovim'
 call plug#end()
 
 let g:ale_sign_error = '✖'
@@ -74,6 +69,8 @@ set number
 set autoread
 set relativenumber
 set clipboard=unnamed
+set lazyredraw
+set regexpengine=1
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
