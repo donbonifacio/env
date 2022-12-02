@@ -30,6 +30,7 @@
   branch = auto
 [core]
   editor = vim
+  excludesfile = /Users/kylesmith/.gitignore_global
 [submodule]
   fetchJobs = 4
 [rebase]
